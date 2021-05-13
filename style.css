@@ -1,0 +1,12 @@
+p {
+    color: brown;
+}
+
+.text {
+    color: chartreuse;
+    border: 2px solid #000;
+}
+
+#text {
+    background-color: rgb(146, 72, 72);
+}
