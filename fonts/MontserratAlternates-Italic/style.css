@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MontserratAlternates-Italic';
+  src: url('/path-to/MontserratAlternates-Italic.woff2') format('woff2'),
+       url('/path-to/MontserratAlternates-Italic.woff') format('woff'),
+       url('/path-to/MontserratAlternates-Italic.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'MontserratAlternates-Italic', sans-serif;
+}

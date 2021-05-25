@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'GreatVibes-Regular';
+  src: url('/path-to/GreatVibes-Regular.woff2') format('woff2'),
+       url('/path-to/GreatVibes-Regular.woff') format('woff'),
+       url('/path-to/GreatVibes-Regular.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'GreatVibes-Regular', sans-serif;
+}
