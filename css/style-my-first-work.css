@@ -1,0 +1,76 @@
+:root {
+  --main-background-color: #ffffff;
+  --black-color: #212121;
+  --font-document: Arial, Helvetica, sans-serif;
+  --color-links: #0d7899;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--black-color);
+  font-family: var(--font-document);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.site-nav a {
+  color: var(--color-links);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--color-links);
+  text-decoration: underline;
+}
+
+.footer-nav a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+  color: var(--black-color);
+  text-decoration: underline;
+}
+
+.site-nav .link {
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.hero .title {
+  font-size: 56px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.hero .button {
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.features .title {
+}
+
+.feature-list .title {
+}
+
+.feature-list .description {
+  color: #757575;
+}
+
+.features a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.features a:hover,
+.features a:focus {
+  text-decoration: underline;
+  color: #7fff00;
+}
