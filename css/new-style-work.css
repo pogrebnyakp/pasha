@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  display: inherit;
+}
+
+/* top navigation */
+
+.top-nav a,
+.main-slogan a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.top-nav a:hover,
+.top-nav a:focus {
+  cursor: pointer;
+}
+
+.phone-number {
+  margin-right: 8px;
+}
+
+.top-nav {
+  background-color: #19bb9b;
+  display: flex;
+  flex-grow: 0;
+  flex-basis: 50%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.contacts,
+.client-account {
+  display: flex;
+  align-content: center;
+  padding: 0;
+  font-size: 13px;
+}
+
+.phone-number,
+.client-account-sub-menu:not(last-child),
+.sub-website-menu:not(last-child) {
+  margin-right: 25px;
+}
+
+.about-us {
+  display: flex;
+  flex-grow: 0;
+  flex-basis: 50%;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.about-us a:hover,
+.about-us a:focus {
+  cursor: pointer;
+  color: #3bc6ab;
+}
+
+.sub-website-menu {
+  font-weight: bold;
+}
+
+/* Main-section-h1 */
+
+.main-slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  height: 700px;
+  text-transform: uppercase;
+}
+
+.main-slogan:not(last-child) {
+  font-size: 20px;
+}
+
+.another-color {
+  color: #1abc9c;
+}
+
+.main-slogan a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px;
+  padding: 13px 22px;
+  background-color: #1abc9c;
+  border-radius: 5%;
+}

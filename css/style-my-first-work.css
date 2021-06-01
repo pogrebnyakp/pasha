@@ -1,76 +1,106 @@
-:root {
-  --main-background-color: #ffffff;
-  --black-color: #212121;
-  --font-document: Arial, Helvetica, sans-serif;
-  --color-links: #0d7899;
-}
-
 body {
-  background-color: var(--main-background-color);
-  color: var(--black-color);
-  font-family: var(--font-document);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.6;
+header {
+  margin: 0;
 }
 
-.site-nav a {
-  color: var(--color-links);
+a {
   text-decoration: none;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--color-links);
-  text-decoration: underline;
+header li {
+  display: inline;
 }
 
-.footer-nav a {
-  color: var(--black-color);
-  text-decoration: none;
+header ul {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.footer-nav a:hover,
-.footer-nav a:focus {
-  color: var(--black-color);
-  text-decoration: underline;
+header a {
+  color: #fffcfc;
 }
 
-.site-nav .link {
-  font-size: 15px;
-  line-height: 1.2;
+.phone-number {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-.hero .title {
-  font-size: 56px;
-  line-height: 1.4;
-  font-weight: 400;
+.e-mail {
+  display: inline-block;
 }
 
-.hero .button {
-  font-size: 15px;
-  line-height: 1.2;
+.contacts {
+  width: 43%;
+  float: left;
+  text-align: center;
 }
 
-.features .title {
+.client-account {
+  width: 51%;
+  float: right;
+  text-align: center;
 }
 
-.feature-list .title {
+.contacts,
+.client-account {
+  background-color: #19bb9b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.feature-list .description {
-  color: #757575;
+.client-account-sub-menu {
+  font-size: 13px;
+  font-weight: 100;
+  margin-right: 20px;
 }
 
-.features a {
-  text-decoration: none;
-  color: var(--black-color);
+.website-menu a {
+  color: #1c0f0f;
 }
 
-.features a:hover,
-.features a:focus {
-  text-decoration: underline;
-  color: #7fff00;
+.website-menu .sub-website-menu {
+  color: #25bfa1;
+}
+
+.about-us {
+  width: 100%;
+  background-color: lawngreen;
+}
+
+.main-logo {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 33%;
+  text-align: center;
+}
+
+.website-menu {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 57%;
+  text-align: center;
+}
+
+.top-logo {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-website-menu {
+  color: #25bfa1;
+  margin-left: 20px;
+  font-weight: bold;
 }
